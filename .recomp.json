@@ -1,0 +1,21 @@
+{
+  "game": "Gal Pani X",
+  "original": [
+    {
+      "region": "Japan",
+      "revision": "Final Edition (gpx.exe)"
+    }
+  ],
+  "system": "Windows",
+  "type": "recomp",
+  "status": "released",
+  "targets": ["Wii"],
+  "toolchain": "WiiRevs",
+  "project": "Gal Pani X for Wii",
+  "approach": "The Windows x86 executable statically translated to C; its Win32 and DirectX calls recreated on the Wii, the MIDI music through a soundfont",
+  "notes": "Runs natively on a real Wii, launched with the Homebrew Channel. Wii Remote upright or sideways, Classic Controller and GameCube controller; rumble; 480p.",
+  "tags": ["d5", "puzzle", "wii"],
+  "maintainers": [{ "name": "WiiRevs", "link": "https://wiirevs.com" }],
+  "links": [{ "label": "WiiRevs", "url": "https://wiirevs.com" }],
+  "launchers": [{ "path": "galpanix.zip", "in": "release", "format": "zip" }]
+}
