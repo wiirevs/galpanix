@@ -21,6 +21,8 @@ You need these files from it: `gpx.exe`, `graphic.gp`, `music.gp`, `portrait.gp`
 3. Copy your game files into `sd:/wiirevs/gpx/`.
 4. Start Gal Pani X from the Homebrew Channel.
 
+No room on the card? The game's folder can go on a USB drive instead, as `usb1:/wiirevs/gpx/` (the app stays on the SD card). When both have it, the SD card's is used.
+
 The game checks its files when it starts and lists any that are missing or wrong.
 
 ## Music
